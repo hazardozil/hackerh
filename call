@@ -318,11 +318,11 @@ def whatsapp(copyright1):
 		  with open(filename, "r") as file:
 		  		  content = file.read()
 		  		  if ip_address in content:
-		  		  		  exit("'This Service Was Trun OFF ✓ ','Telegram':'U_L_W'")
+		  		  		  exit("'This Service Was Trun OFF ✓ ','Telegram':'@H_7_Z_W'")
 		  		  else:
 		  		  	with open(filename, "w") as file:
 		  		  		file.write(ip_address)
-		  		  		exit("'This Service Was Trun OFF ✓ ','Telegram':'U_L_W'")
+		  		  		exit("'This Service Was Trun OFF ✓ ','Telegram':'@H_7_Z_W'")
 		elif '{"status":true,"template":"otp","' in r:
 			done+=1
 		elif '"title":"رقم الموبايل غير صحيح"' in r:
@@ -341,8 +341,6 @@ def whatsapp(copyright1):
 		time.sleep(60.3)
 		os.system('clear')
 
-copyright1 = (' '*13+f"{red}'{green}GitHub{red}'{yellow}:{red}'{green}AhmedTools{red}'{yellow},{red}'{green}TeleGram{red}'{yellow}:{red}'{green}U_L_W{red}'\n{restart}")
-print(copyright1)
 print("1- Spam Sms [ ليس كل الدول ] [ Not All Countries ]\n2- Spam E-mail [ Gmail , Yahoo الخ ] [ { All Domins } ]\n3- Spam Call [ كل دول العالم ] [ All Countries ]\n4- Spam WhatsApp [ الوطن العربي فقط ] [ Middle East Only ]")
 ch = input("~ ")
 os.system('clear')
