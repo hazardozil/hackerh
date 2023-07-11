@@ -1,4 +1,4 @@
-import nu os    
+import  os    
 import requests
 
 print('''
