@@ -34,7 +34,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 9, 29, 23, 00 ,9)
+g= datetime.datetime(2023, 10, 29, 23, 00 ,9)
 
 
 if (x.strftime("%x"))>(g.strftime("%x")):
