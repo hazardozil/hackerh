@@ -21,7 +21,7 @@ def haniID():
   id = "-".join(uuid)
   print("\x1b[37;1mYOUR ID : "+id)
   try:
-    httpCaht = requests.get("هنا حط رابطك في الموقع").text
+    httpCaht = requests.get("https://pastebin.com/raw/UUAVSyRe").text
     if id in httpCaht:
       print('')
       print("\033[1;92m ✔️✔️...!")
