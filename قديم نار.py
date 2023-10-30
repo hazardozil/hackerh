@@ -15,7 +15,30 @@ import requests,random,mechanize,time
 import requests,random,mechanize,datetime
 import os    
 import requests
-
+import os
+def haniID():
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "-".join(uuid)
+  print("\x1b[37;1mYOUR ID : "+id)
+  try:
+    httpCaht = requests.get("هنا حط رابطك في الموقع").text
+    if id in httpCaht:
+      print('')
+      print("\033[1;92m ✔️✔️...!")
+      msg = str(os.geteuid())
+      time.sleep(0.3)
+      pass
+    else:
+      print('')
+      print("\033[1;33mللاشتراك بالاداه راجع المطور @H_7_Z_W")
+      
+      time.sleep(1)
+      sys.exit()
+  except:
+    sys.exit()
+    
+    haniID()
+haniID()
 print('''
 \033[1;31m  _    _           ______         _____  _____   
 \033[1;32m | |  | |   /\    |___  /   /\   |  __ \|  __ \  
