@@ -14,32 +14,7 @@ from rich import print as rprint
 from rich import pretty
 from rich.text import Text as tekz
 import os
-def haniID():
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "-".join(uuid)
-  print("\x1b[37;1mYOUR ID : "+id)
-  try:
-    httpCaht = requests.get("https://pastebin.com/raw/TM3MJ0kA").text
-    if id in httpCaht:
-      print('')
-      print("\033[1;92m ✔️✔️.مشترك..!")
-      msg = str(os.geteuid())
-      time.sleep(0.3)
-      pass
-    else:
-      print('')
-      print('''\033[1;33mللاشتراك بالاداه راجع المطور @H_7_Z_W 
-      𝐇𝐀𝐙𝐀𝐑𝐃🇸🇩''')
-      
-      time.sleep(1)
-      sys.exit()
-  except:
-    
-    
-    haniID()
-haniID()
-   
-    
+
 try:
 	import requests
 except ImportError:
